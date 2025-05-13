@@ -1,0 +1,25 @@
+---
+title: "pruebaa"
+author: "Camilo"
+date: "2025-05-13"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+# Nivel 1
+Primera *prueba* **a ver que tal sale esto**
+
+
+## Nivel 2
+ahhs egunda prueba
+
+
+### NIvel 3
+tercera
+
+
+#### Asi hasta el lvl 4
+y ultimaaa
