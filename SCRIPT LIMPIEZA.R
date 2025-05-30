@@ -24,7 +24,7 @@ youtubeEU <- youtube %>%
 table(youtubeEU$Country)
 youtubeEU_filtered <- youtubeEU %>%
   filter(Country %in% c("EU", "United States"))
-table(youtubeEU_filtered$Country)
+table(youtubeEU_filtered$Country) 
 
 eu_data <- subset(youtubeEU_filtered, Country == "EU")
 eu_data <- eu_data %>%
