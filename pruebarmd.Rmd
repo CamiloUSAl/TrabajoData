@@ -10,16 +10,54 @@ knitr::opts_chunk$set(echo = TRUE)
 ```
 
 # Nivel 1
+
 Primera *prueba* **a ver que tal sale esto**
 
-
 ## Nivel 2
+
 ahhs egunda prueba
 
-
 ### NIvel 3
+
 tercera
 
-
 #### Asi hasta el lvl 4
+
 y ultimaaa
+
+| Col1 | Col2 | Col3 |
+|------|------|------|
+| yeah |      |      |
+|      |      |      |
+|      |      |      |
+
+# imagen
+
+![]() \# Tablas
+
+
+```{r}
+2+2
+
+```
+
+```{r}
+summary(cars)
+```
+
+
+eval
+
+```{r,eval=FALSE}
+summary(cars)
+```
+
+
+```{r,echo=FALSE}
+summary(cars)
+```
+
+
+```{r,include=FALSE}
+summary(cars)
+```
