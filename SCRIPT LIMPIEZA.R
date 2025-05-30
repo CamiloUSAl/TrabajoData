@@ -1,5 +1,5 @@
 # Thu May 29 10:57:26 2025 ------------------------------
-library(readr)  
+library(readr)   
 Global_YouTube_Statistics <- read_csv("Global YouTube Statistics.csv")
 head(Global_YouTube_Statistics) 
 table(Global_YouTube_Statistics$category)
